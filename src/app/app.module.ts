@@ -13,7 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialDesignModule } from '../material-design/material-design.module';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { HomeComponent } from './home/home.component';
-import { TestScoreComponent } from './test-score/test-score.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { TestScoreComponent } from './test-score/test-score.component';
     LoginComponent,
     MainNavComponent,
     HomeComponent,
-    TestScoreComponent
+    CartComponent
   ],
   imports: [
     BrowserModule,

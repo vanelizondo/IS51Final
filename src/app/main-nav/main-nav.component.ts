@@ -20,7 +20,7 @@ export class MainNavComponent implements OnInit {
   }
 
   showAbout() {
-    this.toastService.showToast('success', 5000, 'This application was created by Lucas Phan (C).');
+    this.toastService.showToast('success', 7000, 'This application was created by Lucas Phan (C).');
   }
 
 }

@@ -1,6 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
-import { TestScoreComponent } from './test-score/test-score.component';
+import { CartComponent } from './cart/cart.component';
 import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
@@ -11,8 +11,8 @@ const appRoutes: Routes = [
     path: 'home',
     component: HomeComponent
   }, {
-    path: 'my-tests',
-    component: TestScoreComponent
+    path: 'cart',
+    component: CartComponent
   }, {
     path: '**',
     component: LoginComponent
