@@ -8,7 +8,7 @@ const appRoutes: Routes = [
     path: '',
     component: LoginComponent
   }, {
-    path: 'home',
+    path: 'invoice',
     component: HomeComponent
   }, {
     path: 'cart',

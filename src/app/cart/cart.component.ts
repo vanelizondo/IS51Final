@@ -107,7 +107,7 @@ export class CartComponent implements OnInit {
       this.toastService.showToast('warning', 7000, 'Name must contain a comma and a space');
     } else {
       localStorage.setItem('test-data', JSON.stringify(data));
-      this.router.navigate(['home', data]);
+      this.router.navigate(['invoice', data]);
     }
 
   }
