@@ -14,14 +14,12 @@ export class ToastComponent implements OnInit {
   constructor(private toastService: ToastService) { }
 
   ngOnInit() {
-    console.log('this.dismissible.', this.dismissible);
     this.toastService.toastChanged.subscribe((alerts) => {
       this.alerts.push(alerts);
     });
   }
 
   onClosed(e) {
-    console.log('from onClosed fired..... e', e);
   }
 
 }

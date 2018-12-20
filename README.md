@@ -51,6 +51,17 @@ You are hired to create a Web application to sell specialty bikes. The applicati
 
 The data above is located in ```assets/inventory.json``` for reference. 
 
+The application will start in the login component. The user enters his or her username and password and login. Currently there is only one user (you) with the default username of password of 
+
+```
+username: "<First Name>"
+password: "<First Name>123"
+
+eg. lucas, lucas123
+```
+
+Upon successful login, navigate to the cart page.
+
 Your application should allow the user to enter data for each item. When the "cart" page is initialized, check and load items from local storage. If there are items available, load the items into the view. If there are no items available in local storage, load the three bike data from the inventory.json file and display them into the view. The user will enter any "price" and "quantity" for each item. When “Checkout” button is clicked, Aggregate (sum up) and calculate the total, subtotal and tax amount.
 
 
@@ -61,15 +72,6 @@ The user enters his/her name in the name input box (Note: the format of name inp
 When "Remove From Cart" button is clicked, the corresponding Test item will be deleted.
 
 When “Checkout” button is clicked, validate the name input box is not null or whether a comma and a space ie (', ') is not present. If there are errors, show a toast to the user of the error. Upon successful validation, navigate to the "Invoice" page and display the results as show below. Perform string splicing to transform “LastName, FirstName” to “First Name Last Name” and the name property on the table should show: “<First Name> <Last Name>. (See screenshots)
-
-The application will start in the login component. The user enters his or her username and password and login. Currently there is only one user (you) with the default username of password of 
-
-```
-username: "<First Name>"
-password: "<First Name>123"
-
-eg. lucas, lucas123
-```
 
 ### Validation (see screenshots below)
 
