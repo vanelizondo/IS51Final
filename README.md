@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 1. Written component 50pts (~ 15 minutes)
 2. GITFlow component 50pts (~ 10 minutes)
-3. Code component 150pts (~ 125 minutes)
+3. Code component 150pts (~ 85 minutes)
 
 You can use any resources including  your books, notes, and memos for completing this part of the test; however, you cannot ask, share, or consult with anyone in the world. You can use the Internet for any searches. Any violation will automatically issue a zero on the Exam.
 
@@ -22,7 +22,7 @@ Make sure the computer, VS Code, and the files / application is all working prop
 
 ### Code Component - Specialty Bike Application
 
-You are hired to create a Web application to sell specialty bikes. The application should have a collection of bikes that stores the following data: ID (a number), image (a string) quantity (a number), price (a number) and description (a string). Currently the company offer three bike model (data as shown below) The application should use an array of three custom objects (interface). If you do not know how to use an array of custom interface, you can use an array of 'any' objects instead with 2.5 points penalty.
+You are hired to create a web application to sell specialty bikes. The application should have a collection of bikes that stores the following data: ID (a number), image (a string) quantity (a number), price (a number) and description (a string). Currently the company offer three bike model (data as shown below) The application should use an array of three custom objects (interface). If you do not know how to use an array of custom interface, you can use an array of 'any' objects instead with 2.5 points penalty.
 
 #### Exam Data
 ```
@@ -69,7 +69,7 @@ the "About" button displays a message, ```“This application is designed by <yo
 
 The user enters his/her name in the name input box (Note: the format of name input ->; Lastname, Firstname; ex: Phan, Lucas). (comma with space between last name and first name) 
 
-When "Remove From Cart" button is clicked, the corresponding Test item will be deleted.
+When "Remove From Cart" button is clicked, the corresponding item will be deleted.
 
 When “Checkout” button is clicked, validate the name input box is not null or whether a comma and a space ie (', ') is not present. If there are errors, show a toast to the user of the error. Upon successful validation, navigate to the "Invoice" page and display the results as show below. Perform string splicing to transform “LastName, FirstName” to “First Name Last Name” and the name property on the table should show: “<First Name> <Last Name>. (See screenshots)
 
