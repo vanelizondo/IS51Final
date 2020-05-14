@@ -15,6 +15,7 @@ export class ToastComponent implements OnInit {
 
   ngOnInit() {
     this.toastService.toastChanged.subscribe((alerts) => {
+      console.log('alerts--->', alerts);
       this.alerts.push(alerts);
     });
   }
